@@ -9,7 +9,6 @@ const InputData = () => {
     const [lastName, setLastName] = useState('')
 
 
-
     const handleSubmit = () => {
       const TambahUser = {
         first_name: firstName,
